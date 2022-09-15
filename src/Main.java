@@ -13,12 +13,16 @@ public class Main {
             }
         }
 
-        if (numberOfStudents > 33) {
+        else if (numberOfStudents > 33) {
             System.out.println("Någon i klassrummet verkar ha hamnat fel");
         }
 
-        if (numberOfStudents < 33) {
+        else if (numberOfStudents < 33) {
             System.out.println("Det fattas några elever idag");
+        }
+
+        else {
+            System.out.println("Nu blev det fel");
         }
     }
 }
